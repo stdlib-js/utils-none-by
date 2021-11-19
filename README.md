@@ -20,7 +20,7 @@ limitations under the License.
 
 # noneBy
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Test whether all elements in a collection fail a test implemented by a predicate function.
 
@@ -210,12 +210,12 @@ bool = noneBy( arr, isNegative );
 
 ## See Also
 
--   [`@stdlib/utils/any-by`][@stdlib/utils/any-by]: test whether at least one element in a collection passes a test implemented by a predicate function.
--   [`@stdlib/utils/every-by`][@stdlib/utils/every-by]: test whether all elements in a collection pass a test implemented by a predicate function.
--   [`@stdlib/utils/for-each`][@stdlib/utils/for-each]: invoke a function for each element in a collection.
--   [`@stdlib/utils/none`][@stdlib/utils/none]: test whether all elements in a collection are falsy.
--   [`@stdlib/utils/none-by-right`][@stdlib/utils/none-by-right]: test whether all elements in a collection fail a test implemented by a predicate function, iterating from right to left.
--   [`@stdlib/utils/some-by`][@stdlib/utils/some-by]: test whether a collection contains at least `n` elements which pass a test implemented by a predicate function.
+-   <span class="package-name">[`@stdlib/utils/any-by`][@stdlib/utils/any-by]</span><span class="delimiter">: </span><span class="description">test whether at least one element in a collection passes a test implemented by a predicate function.</span>
+-   <span class="package-name">[`@stdlib/utils/every-by`][@stdlib/utils/every-by]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection pass a test implemented by a predicate function.</span>
+-   <span class="package-name">[`@stdlib/utils/for-each`][@stdlib/utils/for-each]</span><span class="delimiter">: </span><span class="description">invoke a function for each element in a collection.</span>
+-   <span class="package-name">[`@stdlib/utils/none`][@stdlib/utils/none]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection are falsy.</span>
+-   <span class="package-name">[`@stdlib/utils/none-by-right`][@stdlib/utils/none-by-right]</span><span class="delimiter">: </span><span class="description">test whether all elements in a collection fail a test implemented by a predicate function, iterating from right to left.</span>
+-   <span class="package-name">[`@stdlib/utils/some-by`][@stdlib/utils/some-by]</span><span class="delimiter">: </span><span class="description">test whether a collection contains at least `n` elements which pass a test implemented by a predicate function.</span>
 
 </section>
 
@@ -266,8 +266,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-none-by/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-none-by?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-none-by.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-none-by/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
