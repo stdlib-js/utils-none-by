@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-none-by
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@esm/index.mjs';
+var noneBy = require( '@stdlib/utils-none-by' );
 ```
 
 #### noneBy( collection, predicate\[, thisArg ] )
@@ -161,14 +177,9 @@ var mean = context.sum / context.count;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var noneBy = require( '@stdlib/utils-none-by' );
 
 function isNegative( value ) {
     return ( value < 0 );
@@ -185,10 +196,6 @@ for ( i = 0; i < arr.length; i++ ) {
 
 bool = noneBy( arr, isNegative );
 // returns true
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -231,7 +238,7 @@ bool = noneBy( arr, isNegative );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -248,7 +255,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -299,17 +306,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/any-by]: https://github.com/stdlib-js/utils-any-by/tree/esm
+[@stdlib/utils/any-by]: https://github.com/stdlib-js/utils-any-by
 
-[@stdlib/utils/every-by]: https://github.com/stdlib-js/utils-every-by/tree/esm
+[@stdlib/utils/every-by]: https://github.com/stdlib-js/utils-every-by
 
-[@stdlib/utils/for-each]: https://github.com/stdlib-js/utils-for-each/tree/esm
+[@stdlib/utils/for-each]: https://github.com/stdlib-js/utils-for-each
 
-[@stdlib/utils/none]: https://github.com/stdlib-js/utils-none/tree/esm
+[@stdlib/utils/none]: https://github.com/stdlib-js/utils-none
 
-[@stdlib/utils/none-by-right]: https://github.com/stdlib-js/utils-none-by-right/tree/esm
+[@stdlib/utils/none-by-right]: https://github.com/stdlib-js/utils-none-by-right
 
-[@stdlib/utils/some-by]: https://github.com/stdlib-js/utils-some-by/tree/esm
+[@stdlib/utils/some-by]: https://github.com/stdlib-js/utils-some-by
 
 <!-- </related-links> -->
 
