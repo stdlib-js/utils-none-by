@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-none-by/tags). For example,
+
+```javascript
 import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@v0.2.3-deno/mod.js';
 ```
 
@@ -174,7 +179,7 @@ var mean = context.sum / context.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@v0.2.3-deno/mod.js';
+import noneBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-none-by@deno/mod.js';
 
 function isNegative( value ) {
     return ( value < 0 );
